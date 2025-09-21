@@ -77,8 +77,7 @@ Focus on **porting validated designs** → reduces complexity for engineers → 
 ---
 
 
-### 📟 Iverilog – Verilog Simulator
-**Purpose:** IC layout editor with DRC.
+### 📟 OpenLane **Purpose:** complete containerized RTL to GDS enviroment 
 
 **Installation:**  
 ```bash
