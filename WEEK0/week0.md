@@ -76,6 +76,24 @@ Focus on **porting validated designs** → reduces complexity for engineers → 
 
 ---
 
+
+### 📟 Iverilog – Verilog Simulator
+**Purpose:** IC layout editor with DRC.
+
+**Installation:**  
+```bash
+    git clone https://github.com/The-OpenROAD-Project/OpenLane
+    cd OpenLane
+    make
+    make test
+```
+**Verification:**  
+<p align="center">
+  <img src="./OpenLane.png" alt="Magic Installed" width="600"/>
+</p>
+
+---
+
 ## 🎉 Installation Summary
 
 <div align="center">
@@ -86,6 +104,8 @@ Focus on **porting validated designs** → reduces complexity for engineers → 
 | 📟 **Iverilog** | ✅   | Verilog Simulation   |
 | 📊 **GTKWave** | ✅   | Waveform Analysis    |
 | 🎨 **Magic**   | ✅   | Layout Design        |
+|  **OpenLane**   | ✅   | RTL to GDC        |
+
 
 </div>
 
