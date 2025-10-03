@@ -52,10 +52,10 @@ iverilog /path/to/primitives.v /path/to/sky130_fd_sc_hd.v <netlist_output>.v <te
 ./a.out
 gtkwave dump.vcd
 ```
-#synthesis of mux using yosys
+### synthesis of mux using yosys
 
 <div style="text-align: center;">
-  <img src="yosys.png" alt="Alt text" width="500" style="margin: 0 auto; display: block;">
+  <img src="yosys1.png" alt="Alt text" width="500" style="margin: 0 auto; display: block;">
 </div>
 
 #GLS of Mux :
@@ -65,13 +65,13 @@ gtkwave dump.vcd
   <img src="gls.png" alt="Alt text" width="500" style="margin: 0 auto; display: block;">
 </div>
 
-#badmux warning
+### badmux warning
 
 <div style="text-align: center;">
   <img src="glsbadmux.png" alt="Alt text" width="500" style="margin: 0 auto; display: block;">
 </div>
 
-#synthesis of caveat
+### synthesis of caveat
 
 <div style="text-align: center;">
   <img src="caveat.png" alt="Alt text" width="500" style="margin: 0 auto; display: block;">
