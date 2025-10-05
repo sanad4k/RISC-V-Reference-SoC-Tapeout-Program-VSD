@@ -42,3 +42,20 @@ Architectural Validation: This stage confirms that the overall system architectu
 Early Error Detection: Finding and fixing architectural flaws or logic errors at this abstract stage is significantly cheaper and faster than fixing them later during the Register-Transfer Level (RTL) coding or, worse, after physical design (the Sky130-technology implementation).
 
 Software Development Enablement: Functional models allow software engineers to start writing and testing the embedded code (like the firmware for the RVMYTH CPU) long before the final hardware is available. This co-design approach drastically speeds up the entire development cycle.
+
+---
+The preSynthesis was conducted and waveform was observed on gtkwave 
+<img src="presynth.png" widht="500" height="500">
+
+observations:
+**clk** : here the clk is generated ie the output of PLL( phase lock loop )
+**out** : The analog output from DAC can be seen in waveform.
+**out 9:0 ** :This is the output from the CPU.
+
+reset and effect: during the period of reset the output of cpu (rvmyth core ) is undefined only defined after the reset goes low .
+
+### post synthesis using openLane 
+
+<img src="OpenLane.png" widht="500" height="500">
+
+
